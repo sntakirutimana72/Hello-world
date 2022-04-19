@@ -4,7 +4,8 @@
   "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint:hint": "npx hint .",
+    "lint:style": "npx stylelint \"**/*.{css,scss}\""
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,7 @@
   },
   "homepage": "https://github.com/sntakirutimana72/Hello-world#readme",
   "devDependencies": {
-    "hint": "^6.0.5",
+    "hint": "^6.1.11",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
